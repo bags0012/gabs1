@@ -1,0 +1,18 @@
+print("==== data diri mahasiswa ====")
+nim=input("nim:  ")
+nama=input("nama lengkap : ")
+jurusan=input("jurusan : ")
+alamat=input("alamat : ")
+uts=int(input("nilai uts =  "))
+uas=int(input("nilai uas =  "))
+total=(uts+uas)/2
+
+print("")
+print("hasil cetak data diatas")
+print("nim : "+str(nim))
+print("nama :"+ str(nama))
+print("jurusan : "+str(jurusan))
+print("alamat :"+str(alamat))
+print("uts:"+str(uts))
+print("uas"+str(uas))
+print("nilai akhir:"+str(total))
